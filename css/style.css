@@ -154,4 +154,17 @@ h4 {
   -webkit-transform: rotate(50deg);
           transform: rotate(50deg);
 }
+
+.task {
+  height: 225px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform-origin: 75% 0;
+          transform-origin: 75% 0;
+  -webkit-transform: perspective(1000px) rotateX(35deg) translate(-15px, -15px);
+          transform: perspective(1000px) rotateX(35deg) translate(-15px, -15px);
+}
 /*# sourceMappingURL=style.css.map */
