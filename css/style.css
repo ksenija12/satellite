@@ -1,0 +1,157 @@
+*, *:before, *:after, input, button, select {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input, option {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+button, select {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input:focus, label:focus, textarea:focus, select:focus, option:focus, button:focus, a:focus {
+  outline: none;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/wpapers.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  position: relative;
+}
+
+.container {
+  width: 60%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 40px;
+  padding-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  color: #ffffff;
+}
+
+h4 {
+  text-align: center;
+}
+
+.corrections, .cells {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#corrections, #cells {
+  margin-top: 25px;
+  width: 200px;
+  padding: 5px 10px;
+}
+
+#corrections::-webkit-input-placeholder, #cells::-webkit-input-placeholder {
+  color: #d4d4b1;
+}
+
+#corrections:-ms-input-placeholder, #cells:-ms-input-placeholder {
+  color: #d4d4b1;
+}
+
+#corrections::-ms-input-placeholder, #cells::-ms-input-placeholder {
+  color: #d4d4b1;
+}
+
+#corrections::placeholder, #cells::placeholder {
+  color: #d4d4b1;
+}
+
+#corrections:focus::-webkit-input-placeholder, #cells:focus::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+#corrections:focus:-ms-input-placeholder, #cells:focus:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+#corrections:focus::-ms-input-placeholder, #cells:focus::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+#corrections:focus::placeholder, #cells:focus::placeholder {
+  color: #ffffff;
+}
+
+.button {
+  width: 75px;
+  padding: 5px 10px;
+  border: 1px solid #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.button:hover {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.answer {
+  text-align: center;
+  margin-top: 60px;
+  width: 60vh;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.rocket {
+  height: 100px;
+  position: absolute;
+  left: -200px;
+  bottom: -200px;
+  -webkit-transform: rotate(50deg);
+          transform: rotate(50deg);
+}
+/*# sourceMappingURL=style.css.map */
